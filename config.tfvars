@@ -36,7 +36,7 @@ connectivityNetworkSecurityGroupRules = [
     protocol                 = "Tcp"
     source_port_range        = "*"
     destination_port_range   = "443"
-    source_address_prefix    = "104.184.111.70"
+    source_address_prefix    = "104.184.163.80"
     destination_address_prefix = "*"
   },
   {
