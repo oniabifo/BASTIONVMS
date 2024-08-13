@@ -14,16 +14,16 @@ computeVirtualMachineNames = [
     },
     {
         name = "vm-compute-02"
-    },
-    {
-        name = "vm-compute-03"
-    },
-    {
-        name = "vm-compute-04"
-    },
-    {
-        name = "vm-compute-05"
     }
+    # {
+    #     name = "vm-compute-03"
+    # },
+    # {
+    #     name = "vm-compute-04"
+    # },
+    # {
+    #     name = "vm-compute-05"
+    # }
 ]
 connectivityBastionHostName = "bastion-connectivity-01"
 connectivityNetworkSecurityGroupName = "nsg-connectivity-01"

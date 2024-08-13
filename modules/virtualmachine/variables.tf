@@ -1,7 +1,6 @@
 variable "resource_group_name" {
   description = "Name of the resource group to deploy the Virtual Machine into"
   type = string
-  default = "clickclaims-rgp-test-0001"
 
 }
 

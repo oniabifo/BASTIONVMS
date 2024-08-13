@@ -1,8 +1,6 @@
 variable "resource_group_name" {
   description = "Name of the resource group to deploy the Network Security Group into"
   type = string
-  default = "clickclaims-rgp-test-0001"
-
 }
 
 variable "location" {

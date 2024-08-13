@@ -1,6 +1,5 @@
 variable "resource_group_name" {
   type = string
-  default = "clickclaims-rgp-test-0001"
 
 }
 
