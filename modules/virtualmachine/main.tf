@@ -24,7 +24,7 @@ resource "azurerm_windows_virtual_machine" "virtualmachine" {
 
 resource "azurerm_virtual_machine_extension" "iis" {
     name                 = "install-iis"
-    virtual_machine_id   = azurerm_linux_virtual_machine.virtualmachine.id
+    virtual_machine_id   = azurerm_windows_virtual_machine.virtualmachine.id
     publisher            = "Microsoft.Compute"
     type                 = "CustomScriptExtension"
     type_handler_version = "2.0"
