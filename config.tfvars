@@ -1,32 +1,23 @@
-connectivityResourceGroupName = "rg-connectivity-01"
-computeResourceGroupName = "rg-compute-01"
-connectivityVirtualNetworkName = "vnet-connectivity-01"
-computeVirtualNetworkName = "vnet-compute-01"
+connectivityResourceGroupName = "clickclaims-connectivity-dev-01"
+computeResourceGroupName = "clickclaims-compute-dev-01"
+connectivityVirtualNetworkName = "vnet-connectivity-dev-01"
+computeVirtualNetworkName = "vnet-compute-dev-01"
 connectivityVirtualNetworkAddressSpace = [ "10.1.0.0/16" ]
 computeVirtualNetworkAddressSpace = [ "10.2.0.0/16" ]
-connectivitySubnetName = "AzureBastionSubnet"
+connectivitySubnetName = "snet-bastion-dev-01"
 connectivitySubnetAddressPrefixes = [ "10.1.0.0/27" ]
-computeSubnetName = "snet-compute-01"
+computeSubnetName = "snet-compute-dev-01"
 computeSubnetAddressPrefixes = [ "10.2.0.0/26" ]
 computeVirtualMachineNames = [ 
     {
         name = "vm-compute-01"
     },
     {
-        name = "vm-compute-02"
+        name = "vm-utility-01"
     }
-    # {
-    #     name = "vm-compute-03"
-    # },
-    # {
-    #     name = "vm-compute-04"
-    # },
-    # {
-    #     name = "vm-compute-05"
-    # }
 ]
-connectivityBastionHostName = "bastion-connectivity-01"
-connectivityNetworkSecurityGroupName = "nsg-connectivity-01"
+connectivityBastionHostName = "bastion-connectivity-dev-01"
+connectivityNetworkSecurityGroupName = "nsg-connectivity-dev-01"
 connectivityNetworkSecurityGroupRules = [
   {
     name                     = "AllowHttpsForBastion"
